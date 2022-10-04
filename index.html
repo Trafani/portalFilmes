@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Portal de Filmes</title>
 </head>
+
 <body>
     <!-- Cabeçalho -->
     <header>
-        <img src="https://source.unsplash.com/random/50x50?sig=1" alt="Logotipo">
-        <nav class="menu"> 
+        <img src="https://source.unsplash.com/random/50x50?sig=1" alt="Logotipo" />
+        <nav class="menu">
             <ul>
                 <li><a href="#">lançamentos</a></li>
                 <li><a href="#">em destaque</a></li>
@@ -20,79 +22,145 @@
                 <li><a href="#">novidades</a></li>
             </ul>
         </nav>
-            <div class="caixa-pesquisa">
-                <input type="text" class="texto-pesquisa" value="Pesquisar">
-                <button>Ok</button>
-            </div>
+        <div class="caixa-pesquisa">
+            <input type="text" class="texto-pesquisa" value="Pesquisar" />
+            <button>Ok</button>
+        </div>
     </header>
     <!-- Conteúdo do site -->
     <main>
         <!--Sessão Lançamentos-->
         <div class="box-lancamentos">
-            <h1><center>Lançamentos</center></h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DotnJ7tTA34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>
+                <center>Lançamentos</center>
+            </h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DotnJ7tTA34"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             <div class="box-lancamentos-desc">
                 <h2>Nome do Filme</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero ducimus labore id vel repudiandae unde fuga quibusdam. Neque incidunt cupiditate placeat laboriosam, tenetur earum quisquam alias dolores eos aspernatur!</p>
-                <span><strong>Diretor:</strong> Lorem, ipsum |</span> 
-                <span><strong>Roteiro:</strong> Lorem, dolor |</span> 
-                <span><strong>Estreia:</strong> 08/01/2023</span> 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                    libero ducimus labore id vel repudiandae unde fuga quibusdam. Neque
+                    incidunt cupiditate placeat laboriosam, tenetur earum quisquam alias
+                    dolores eos aspernatur!
+                </p>
+                <span><strong>Diretor:</strong> Lorem, ipsum |</span>
+                <span><strong>Roteiro:</strong> Lorem, dolor |</span>
+                <span><strong>Estreia:</strong> 08/01/2023</span>
                 <p><strong>Elenco</strong></p>
-                <span>Fernanda Garcia |</span> 
-                <span>Thiago Negrão |</span> 
-                <span>Vitor Silva</span> 
+                <span>Fernanda Garcia |</span>
+                <span>Thiago Negrão |</span>
+                <span>Vitor Silva</span>
                 <p><strong>Avaliação</strong></p>
                 <p>★★★★★</p>
-            </div>     
+            </div>
         </div>
         <!--Sessão Em Destaque-->
         <div class="em-destaque-titulo">
-            <div class="item1"><h1>Em destaque</h1></div>
+            <div class="item1">
+                <h1>Em destaque</h1>
+            </div>
             <div class="item2">
                 <select value="Selecionar categoria" name="item2" id="item2">
-                <option value="audi">Todos</option>
-                <option value="volvo">Aventura</option>
-                <option value="saab">Romance</option>
-                <option value="mercedes">Comédia</option>
-            </select>
+                    <option value="audi">Todos</option>
+                    <option value="volvo">Aventura</option>
+                    <option value="saab">Romance</option>
+                    <option value="mercedes">Comédia</option>
+                </select>
             </div>
         </div>
-            <div class="em-destaque">
-                <img src="https://source.unsplash.com/random/250x350?sig=1" alt="Filme em destaque">
-                <img src="https://source.unsplash.com/random/250x350?sig=2" alt="Filme em destaque">
-                <img src="https://source.unsplash.com/random/250x350?sig=3" alt="Filme em destaque">
-                <img src="https://source.unsplash.com/random/250x350?sig=4" alt="Filme em destaque">
-            </div>
-            <button>+ Carregar mais filmes</button>
+        <div class="em-destaque">
+            <img src="https://source.unsplash.com/random/250x350?sig=1" alt="Filme em destaque" />
+            <img src="https://source.unsplash.com/random/250x350?sig=2" alt="Filme em destaque" />
+            <img src="https://source.unsplash.com/random/250x350?sig=3" alt="Filme em destaque" />
+            <img src="https://source.unsplash.com/random/250x350?sig=4" alt="Filme em destaque" />
+        </div>
+        <button>+ Carregar mais filmes</button>
         <!--Sessão Últimas avaliações-->
         <h1>Últimas avaliações</h1>
-        <div class=box-avaliacao>
+        <div class="box-avaliacao">
             <div class="box-individual">
-                <img class="img" src="https://source.unsplash.com/random/50x50?sig=1">
+                <img class="img" src="https://source.unsplash.com/random/50x50?sig=1" />
                 <div class="box-individual item">
-                <h3>Avaliação 1</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, error ipsum iste neque iure vel omnis dicta eaque ad harum magnam sint, similique eveniet! Magni laudantium tempora nobis minima fuga.</p>
+                    <h3>Avaliação 1</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+                        error ipsum iste neque iure vel omnis dicta eaque ad harum magnam
+                        sint, similique eveniet! Magni laudantium tempora nobis minima
+                        fuga.
+                    </p>
                 </div>
             </div>
             <div class="box-individual">
-                <img class="img" src="https://source.unsplash.com/random/50x50?sig=2">
+                <img class="img" src="https://source.unsplash.com/random/50x50?sig=2" />
                 <div class="box-individual item">
-                <h3>Avaliação 2</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, error ipsum iste neque iure vel omnis dicta eaque ad harum magnam sint, similique eveniet! Magni laudantium tempora nobis minima fuga.</p>
+                    <h3>Avaliação 2</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+                        error ipsum iste neque iure vel omnis dicta eaque ad harum magnam
+                        sint, similique eveniet! Magni laudantium tempora nobis minima
+                        fuga.
+                    </p>
                 </div>
             </div>
             <div class="box-individual">
-                <img class="img" src="https://source.unsplash.com/random/50x50?sig=3">
+                <img class="img" src="https://source.unsplash.com/random/50x50?sig=3" />
                 <div class="box-individual item">
-                <h3>Avaliação 3</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, error ipsum iste neque iure vel omnis dicta eaque ad harum magnam sint, similique eveniet! Magni laudantium tempora nobis minima fuga.</p>
+                    <h3>Avaliação 3</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+                        error ipsum iste neque iure vel omnis dicta eaque ad harum magnam
+                        sint, similique eveniet! Magni laudantium tempora nobis minima
+                        fuga.
+                    </p>
                 </div>
             </div>
-
         </div>
         <button>+ Carregar mais avaliações</button>
 
-    </main>
+        <div class="box-entrevista">
+            <h1>Entrevistas & Making of</h1>
+            <div>
+                <div class="box-entrevista detalhe">
+                    <iframe class="videoEntrevista" src="https://www.youtube.com/embed/DotnJ7tTA34" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <h2><strong>Filme:</strong> Nome dos Filmes</h2>
+                    <span><strong>Diretor:</strong> Nome do Diretor</span>
+                    <span><strong>Roteiro:</strong> Estreia 2020 </span>
+                </div>
 
+                <div  class="box-entrevista detalhe">
+                    <iframe class="videoEntrevista" src="https://www.youtube.com/embed/DotnJ7tTA34" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <h2><strong>Filme:</strong> Nome dos Filmes</h2>
+                    <span><strong>Diretor:</strong> Nome do Diretor</span>
+                    <span><strong>Roteiro:</strong> Estreia 2020 </span>
+                </div>
+                <div class="box-entrevista detalhe">
+                    <iframe class="videoEntrevista" src="https://www.youtube.com/embed/DotnJ7tTA34" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                        
+                    </iframe>
+                    <h2><strong>Filme:</strong> Nome dos Filmes</h2>
+                    <span><strong>Diretor:</strong> Nome do Diretor</span>
+                    <span><strong>Roteiro:</strong> Estreia 2020 </span>
+                </div>
+            </div>
+
+            <section class="novidades">
+
+
+                
+            </section>
+        </div>
+    </main>
 </body>
+
 </html>

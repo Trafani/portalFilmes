@@ -98,7 +98,31 @@ p {
     flex-direction: row;
 }
 
+.box-entrevista {  
+    
+    width: 100%;
+    float: inline-start;
+    
+}
+
+.box-entrevista .detalhe {
+    margin: 5px;
+    display: inline-block;
+    width: 30%;
+
+}
+
+.videoEntrevista {  
+    
+    width: 100%;
+    display: block;
+    background-color: brown;
+}
+
+
+
 .box-individual {
+    height: 50%;
     width: 33%;
     display: flex;
     flex-wrap: wrap;
