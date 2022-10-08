@@ -102,68 +102,10 @@ p {
     flex-direction: row;
 }
 
-
 .box-entrevista {  
     
     width: 100%;
     float: inline-start;
-    
-}
-
-.secao-final   {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
- 
-}
-
-.sobre {
-    height: 50%;
-}
-.novidade {
-    width: 60%;
-
-}
-.secao-novidade {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 5px;
-    
-}
-
-.sobre-editorial {
-    width: 40%;
-
-}
-
-.novidade-imagem  {
-    width: 40%;
-
-}
-
-.secao-novidade .novidade-imagem .img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.box-novidade-descricao {
-    margin-left: 10px;
-    width: 55%;
-    height: 100%;
-}
-
-.box-novidade-descricao .tag-name  {
-    display: inline;
-    color: white;
-    margin: 0 5px 0 0;
-    padding: 0 10px;
-    background-color: grey;
-    border-radius: 15px;
-    font-size: 11px;
     
 }
 
@@ -174,11 +116,11 @@ p {
 
 }
 
-
 .videoEntrevista {  
     
     width: 100%;
     display: block;
+    background-color: brown;
 }
 
 
