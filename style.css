@@ -121,12 +121,10 @@ p {
 .sobre {
     height: 50%;
 }
-
 .novidade {
     width: 60%;
 
 }
-
 .secao-novidade {
     width: 100%;
     display: flex;
